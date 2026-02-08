@@ -1,11 +1,5 @@
-# src/views/stalls_view.py
-
 def render_stalls_page(rows):
-    """
-    rows: list of tuples จาก get_complaint_count_each_stall()
-    คาดว่า: (stall_id, stall_name, complaint_count) หรือ (stall_name, complaint_count)
-    คืนค่า: ("back", None)
-    """
+
     print("\n" + "=" * 90)
     print("หน้าร้านอาหาร (จำนวนการร้องเรียนต่อร้าน)")
     print("=" * 90)

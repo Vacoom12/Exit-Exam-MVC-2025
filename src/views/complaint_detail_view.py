@@ -24,9 +24,8 @@ def render_complaint_detail(complaint, responses):
     if not responses:
         print("- ยังไม่มีการตอบกลับ")
     else:
-        # คาดว่า response tuple อาจเป็น: (id, complaint_id, response_text, response_date) หรือ (id, response_date, response_text)
         for i, r in enumerate(responses, start=1):
-            # เดาแบบยืดหยุ่น
+            
             if len(r) >= 4:
                 r_date = str(r[3])
                 r_text = str(r[2])

@@ -1,8 +1,4 @@
 def render_reply_form(complaint):
-    """
-    complaint: tuple จาก get_description_by_id(complaint_id)
-    คืนค่า: reply_text (str) | None (ถ้ายกเลิก)
-    """
     print("\n" + "=" * 90)
     print("หน้าตอบกลับการร้องเรียน (เพิ่มการตอบกลับ)")
     print("=" * 90)
